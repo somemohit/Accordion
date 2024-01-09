@@ -8,6 +8,7 @@ function App() {
         <h1 className="text-2xl text-[#dae1eb] font-semibold text-center">
           Accordion
         </h1>
+
         {questions?.map((data) => (
           <Accordion key={data.id} title={data.title} info={data.info} />
         ))}
