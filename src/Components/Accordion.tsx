@@ -19,7 +19,7 @@ function Accordion({ title, info }: AccordionProps) {
       className="w-full bg-[#dae1eb] p-2 mt-2 rounded-md text-gray-700"
     >
       <button
-        className="w-full flex justify-between items-center font-semibold"
+        className="w-full flex justify-between items-center font-semibold text-xs md:text-base"
         onClick={() => setExpand(!expand)}
         aria-expanded={expand}
         aria-controls={`accordion-content-${title
@@ -30,7 +30,7 @@ function Accordion({ title, info }: AccordionProps) {
         {expand ? <AiFillMinusCircle /> : <AiFillPlusCircle />}
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-sm ${
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-xs md:text-sm ${
           expand ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
         }`}
         id={`accordion-content-${title.toLowerCase().replace(/\s/g, "-")}`}
