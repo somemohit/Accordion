@@ -2,6 +2,7 @@
 
 This is a [Vite](https://vitejs.dev) project together with React.
 This is an accordion component with web accessibility features.
+Checkout the demo here: https://somemohit.github.io/Accordion/
 
 [![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-vite-react/main)
 
